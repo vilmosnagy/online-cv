@@ -11,7 +11,7 @@
 
   {% if oss.intro %}
   <div class="intro">
-    <p>{{ oss.intro }}</p>
+    <p>{{ oss.intro | markdownify }}</p>
   </div>
   <!--//intro-->
   {% endif %}
@@ -28,7 +28,7 @@
     </span>
 
     {% if contribution.tagline %}
-    - <span class="project-tagline">{{ contribution.tagline }}</span>
+    <p class="project-tagline">{{ contribution.tagline | markdownify  }}</p>
     {% endif %}
 
   </div>

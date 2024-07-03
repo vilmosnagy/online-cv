@@ -5,261 +5,243 @@
 sidebar:
     position: right # position of the sidebar : left or right
     about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+    education: False # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Vilmos Szabó-Nagy
+    tagline: CloudOps Engineer
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    timezone: America/Cancun Timezone
-    citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
-    telegram: # add your nickname without '@' sign
-    gitlab:
+    email: me@vnagy.eu
+    # phone: 012 345 6789
+    timezone: Europe/Budapest Timezone
+    citizenship: Hungarian (EU)
+    # website: blog.webjeda.com #do not add http://
+    linkedin: vilmosnagy
+    # xing: alandoe
+    github: vilmosnagy
+    # telegram: # add your nickname without '@' sign
+    gitlab: vilmosnagy
     bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    # twitter: '@webjeda'
+    stack-overflow: 2891426/nagy-vilmos # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    # pdf: http://www.africau.edu/images/default/sample.pdf
 
     languages:
       title: Languages
       info:
-        - idiom: English
+        - idiom: Hungarian
           level: Native
 
-        - idiom: French
-          level: Professional
-
-        - idiom: Spanish
+        - idiom: English
           level: Professional
 
     interests:
       title: Interests
       info:
-        - item: Climbing
-          link:
+        - item: Running
+          link: https://www.strava.com/athletes/43135934
 
-        - item: Snowboarding
-          link:
+        - item: Hiking
+          link: https://www.strava.com/athletes/43135934
 
-        - item: Cooking
+        - item: Coding
           link:
 
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      I am a CloudOps Engineer with a background in Java development.
+      I knew since primary school that I wanted to work with computers and develop apps for them.
+      During my university years, I was sure that I was going to be a developer who wouldn't have to touch anything
+      related to operations.
+      
+      Initially, I worked with Spring and Spring Boot, developing Vaadin applications using Ebean and JPA.
+      However, over the years, my interest shifted towards running applications in high-availability (HA)
+      environments and adopting a cloud-native approach.
+      
+      I am driven by the desire to create meaningful applications and products.
+      My guiding principle has always been: "I want to work on something I can show off to my mum."
+      
+      Today, I manage multiple Kubernetes clusters, overseeing nation-wide real-time public transport and
+      passenger information applications.
+
 education:
     title: Education
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
+      - degree: BSc Computer Engineering (did not finish)
+        university: Budapest University of Technology and Economics
+        time: 2012 - 2017
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          I attended Budapest University of Technology and Economics, pursuing a BSc in Computer Engineering.
+          Although I completed 85% of my credits, I was unable to finish my degree. Due to financial constraints,
+          I began working to support myself and couldn't find the time to complete my studies while working.
 
 experiences:
     title: Experiences
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: Senior CloudOps Enginner
+        time: 2019 - Present
+        company: realCity ITS, Hungary
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
+          At realCity, I am actively involved in managing cloud environments and implementing an infrastructure-as-code
+          approach to ensure robustness and reliability of our applications. realCity specializes in building modular,
+          cloud-based traffic management and passenger information systems, offering both end-to-end solutions and
+          customizable options tailored to specific IT infrastructure needs for passengers, dispatchers, and drivers.
+
+          We leverage the software-as-a-service (SaaS) model to deliver a modern, accessible experience to operators
+          and organizers without upfront investments. My key responsibilities include overseeing the seamless operation
+          of our applications, ensuring they perform reliably under varying conditions.
+
+          Some of my notable achievements include:
+           - Orchestrating the migration from on-premises infrastructure to an Azure-based cloud-native Kubernetes
+          environment with zero downtime.
+           - Customizing and managing a Keycloak-based single sign-on (SSO) system with over 2 million registered users.
+           - Optimizing our deployment processes using modern infrastructure-as-code and CI/CD solutions, significantly
+             accelerating our ability to deploy our technology stack and new features to new customers.     
+             When I joined realCity, deploying our stack to a new customer took multiple weeks; we achieved to speed up this process, and currently, we can deploy our stack within days.
+      - role: Software Engineer
+        time: 2015 - 2018
+        company: WebValto, Hungary
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
+          At WebValto, a company specializing in software engineering services and consultancy, I gained extensive
+          experience developing applications primarily with Java, focusing on frameworks like Vaadin and occasionally
+          using JSF and Java EE. Around 2017, during a project at WebValto, I was introduced to cloud operations and
+          Docker for the first time, which sparked my keen interest in cloud-native solutions. 
+          
+          Despite consistently delivering exceptional applications on each project, I often encountered challenges
+          with operational teams. Restricted access to production environments and difficulty in replicating issues due
+          to the lack of reproducible minimal examples from the ops team were recurring frustrations. These challenges
+          underscored a critical issue in IT.
+  
+          My exposure to managing our own code in cloud-native environments motivated me to further explore and specialize in cloud-native technologies.
+      - role: Fast Food restaurant worker
+        time: 2011 - 2014
+        company: McDonald's
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          During late high school and early university, I worked at McDonald's. I started with frying fries and
+          making cheeseburgers, but finished as a floor manager, organizing multiple people working in a shift. While
+          the job was unrelated to IT, it taught me valuable skills in people management and teamwork. Managing team
+          members during shifts significantly enhanced my interpersonal skills and ability to work under pressure.
 
 certifications:
       title: Certifications
       list:
-        - name: CV Builder
-          start: 2020
-          end: 2021
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.google.com
-          credentialname: Google
-          details: |
-            Details about cert. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
-
-            Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-            fringilla vel. Ut euismod, sem sed vulputate venenatis,
-            justo diam viverra velit, sed rhoncus leo leo eu justo.
-            Suspendisse placerat risus ante, sed porta nisi blandit at.
-        - name: Git learning
-          start: 2019
+        - name: "Oracle Certified Professional: Java SE 17 Developer"
+          start: Mar 2023
+          # end: 2021
+          organization: Oracle
+          # credentialid: 111-222
+          credentialurl: https://catalog-education.oracle.com/pls/certview/sharebadge?id=497106E95511340DE1171DA716665DD5B2A00DC914A30A9CADEDDA0D35BB5A72
+          # credentialname: Google
+          details:
+        - name: AWS Certified Developer – Associate
+          start: Feb 2023
           end:
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.github.com
-          credentialname: Github
-          details: |
-            Older certification. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
+          organization: Amazon Web Services
+          # credentialid: 111-222
+          credentialurl: https://www.credly.com/badges/9dfc6184-7029-4e54-b988-79f47c0bbfa4
+          # credentialname: Github
+          details:
+        - name: Oracle Certified Professional, Java SE 8 Programmer
+          start: Feb 2018
+          end:
+          organization: Oracle
+          # credentialid: 111-222
+          credentialurl: https://www.credly.com/badges/fef39c70-a5a3-42dc-8692-1fc39ec6fbab/public_url
+          # credentialname: Github
+          details:
 
 projects:
     title: Projects
-    intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    intro: |
+      I am passionate about leveraging IT to solve everyday challenges. Whether it's streamlining tasks or addressing
+      unique problems, I enjoy using intuitive applications to enhance efficiency and effectiveness.
+      
+      When confronted with a problem for which no suitable application exists, I am motivated to create my own solutions.
+      
+      My hobby projects reflect my dedication to innovating IT solutions that simplify and improve daily life.
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      - title: OpenBudget
+        link: "https://gitlab.com/vnagy.eu/openbudget"
+        tagline: |
+          OpenBudget was created with a personal goal in mind: to offer a customizable and open source budgeting
+          solution that extends the features of popular budgeting apps. The inspiration for its creation came from my
+          own experience using a popular budgeting app that saw a significant price increase after years of usage.
+          
+          I wanted to keep my budgeting data and history, but no alternative was able to fully parse their export.
+          Additionally, I wanted to add features that were missing from popular budgeting apps, such as multi-currency
+          support and enhanced reports.
+#
+#      - title: DevStudio
+#        link: "#"
+#        tagline: "A responsive website template designed to help web developers/designers market their services."
+#
+#      - title: Tempo
+#        link: "#"
+#        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+#
+#      - title: Atom
+#        link: "#"
+#        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+#
+#      - title: Delta
+#        link: "#"
+#        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 oss:
     title: OSS Contributions
-    intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-publications:
-    title: Publications
     intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+      When I encounter issues with the tools and applications we use, I thrive on delving into the root causes and
+      finding solutions. Contributing these fixes and improvements back to the community is not just a habit but a
+      passion.
+      
+      I have a track record of making multiple bug fixes and implementing new features in popular Java-based
+      applications and libraries. Moreover, I am adept at identifying and resolving issues in libraries and
+      applications written in diverse technologies like Go, Ruby, TypeScript, and more.
+      
+      My commitment to open-source extends beyond my primary expertise, driven by a desire to contribute
+      wherever I can make an impact.
+    contributions:
+      - title: Keycloak
+        link: "https://github.com/keycloak/keycloak/issues?q=author%3Avilmosnagy"
+        tagline: |
+          During my time managing a Keycloak instance with over 2 million users, I regularly faced challenges arising
+          from concise and generalized bug reports. Understanding the significance of clarity in bug reporting, I
+          dedicated myself to diligently reproducing these issues and subsequently reporting them to the upstream
+          Keycloak project.
+          
+          Moreover, I actively contributed fixes by submitting pull requests for the majority of these issues. This
+          hands-on experience not only deepened my understanding of Keycloak but also reinforced my commitment to
+          improving its functionality and reliability for all users.
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+      - title: Ebean
+        link: "https://github.com/ebean-orm/ebean/issues?q=author%3Avilmosnagy+"
+        tagline: |
+          Contributed to Ebean, an ORM similar to JPA, by implementing missing features for various database backends
+          and resolving specific bugs encountered during operations with those databases across multiple projects.
 
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+#      - title: Delta
+#        link: "#"
+#        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
+      - name: Java
         level: 98%
-
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
+      - name: Kotlin
+        level: 90%
+      - name: Spring Framework & Spring Boot
+        level: 90%
+      - name: Kubernetes
         level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: Helm & helmfile
+        level: 85%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
